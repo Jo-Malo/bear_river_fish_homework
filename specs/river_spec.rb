@@ -16,12 +16,10 @@ class RiverTest < MiniTest::Test
     assert_equal(0, @river.count)
   end
 
-
-
-
-
-
-
+  # def test_clear_
+  #   @river.lose_fish(@total_fish)
+  #   assert_equal(0, @river.count)
+  # end
 
 
 
