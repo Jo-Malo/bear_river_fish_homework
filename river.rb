@@ -14,6 +14,13 @@ attr_reader :name
   def lose_fish()
     @total_fish.clear()
   end
+  
+  def add_fish(name)
+    @total_fish << name
+  end
+
+
+
 
 
 
